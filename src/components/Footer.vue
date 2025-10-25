@@ -1,0 +1,5 @@
+<template>
+  <footer class="footer">
+    <p>© 2025 TicketApp. Built for HNG Frontend.</p>
+  </footer>
+</template>
