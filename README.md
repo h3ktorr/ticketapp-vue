@@ -17,6 +17,14 @@ TicketApp allows users to sign up, log in, create, edit, view, and delete suppor
 
 🎨 Responsive Design — Styled with vanilla CSS and media queries.
 
+## 🚀 Live Demo
+
+[View Live Project](https://ticketapp-vue-nine.vercel.app/)
+
+## 💻 Repository
+
+[GitHub Repo](https://github.com/h3ktorr/ticketapp-vue)
+
 🧱 Tech Stack
 Category Tools / Libraries
 Framework - Vue 3 (via Vite)

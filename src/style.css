@@ -179,6 +179,11 @@ body {
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 1rem;
+  width: 100%;
+}
+
+.description {
+  width: fit-content;
 }
 
 .stats-grid {
