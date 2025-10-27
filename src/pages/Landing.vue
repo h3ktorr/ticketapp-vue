@@ -3,7 +3,7 @@
     <section class="hero-left">
       <h1>TicketApp</h1>
       <p className="lead">Manage support tickets smoothly across teams — built with love.</p>
-      <div class="cta">
+      <div v-if="!auth.user" class="cta">
         <router-link to="/auth/signup" class="btn primary">Get Started</router-link>
         <router-link to="/auth/login" class="btn primary">Login</router-link>
       </div>
@@ -16,3 +16,8 @@
   </main>
 </template>
 
+<script setup>
+import { useAuthStore } from '../store/useAuthStore';
+
+const auth = useAuthStore()
+</script>
